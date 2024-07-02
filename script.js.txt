@@ -1,0 +1,6 @@
+// Add your JavaScript here
+
+// Example: Toggle mobile menu
+document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('show');
+});

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and healthy lifestyle blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Healthy Life</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#nutrition">Nutrition</a></li>
+                <li><a href="#fitness">Fitness</a></li>
+                <li><a href="#wellness">Wellness</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Healthy Life</h1>
+            <p>Your go-to blog for healthy recipes, fitness tips, and wellness advice</p>
+            <a href="#recipes" class="btn">Explore Recipes</a>
+            <a href="#newsletter" class="btn">Subscribe to Newsletter</a>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section id="featured" class="featured-content">
+        <h2>Featured Content</h2>
+        <div class="content-grid">
+            <div class="content-item">
+                <img src="images/recipe1.jpg" alt="Recipe Image">
+                <h3>Delicious Vegan Breakfast</h3>
+                <p>Start your day with this nutritious and tasty vegan breakfast...</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="content-item">
+                <img src="images/workout1.jpg" alt="Workout Image">
+                <h3>30-Minute Full Body Workout</h3>
+                <p>A quick and effective workout to get you moving...</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="content-item">
+                <img src="images/wellness1.jpg" alt="Wellness Image">
+                <h3>Mental Health Tips</h3>
+                <p>Learn how to manage stress and improve your mental well-being...</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section id="recipes" class="recipes">
+        <h2>Healthy Recipes</h2>
+        <div class="recipe-categories">
+            <a href="#">Breakfast</a>
+            <a href="#">Lunch</a>
+            <a href="#">Dinner</a>
+            <a href="#">Snacks</a>
+            <a href="#">Desserts</a>
+            <a href="#">Vegan</a>
+            <a href="#">Vegetarian</a>
+            <a href="#">Gluten-Free</a>
+            <a href="#">Keto</a>
+            <a href="#">Paleo</a>
+        </div>
+        <div class="recipes-grid">
+            <div class="recipe-item">
+                <img src="images/recipe2.jpg" alt="Recipe Image">
+                <h3>Quinoa Salad</h3>
+                <p>A fresh and healthy quinoa salad...</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="recipe-item">
+                <img src="images/recipe3.jpg" alt="Recipe Image">
+                <h3>Grilled Chicken</h3>
+                <p>Perfectly grilled chicken with a flavorful marinade...</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Healthy Life. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
